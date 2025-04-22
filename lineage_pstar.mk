@@ -31,10 +31,18 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_CORE_GMS_EXTRAS := true
+
+# rising Maintainer
+RISING_MAINTAINER := Gojo
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="pstar_retail-user 13 T1RAS33.55-15-16-5 d9def9-6b8134 release-keys" \
     BuildFingerprint=motorola/pstar_retail/pstar:13/T1RAS33.55-15-16-5/d9def9-6b8134:user/release-keys \
     DeviceProduct=pstar_retail \
-    SystemName=pstar_retail
+    SystemName=pstar_retail \
+    RisingMaintainer="Gojo" \
+    RisingChipset="SD 870 5G"
